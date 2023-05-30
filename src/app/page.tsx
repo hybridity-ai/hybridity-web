@@ -32,9 +32,9 @@ export default function Home() {
               <br />
               114 46 Stockholm
               <br />
-              +46 737891792
+              +46707547150
               <br />
-              hello@hybridity.ai
+              <a href="mailto:hello@hybridity.ai">hello@hybridity.ai</a>
             </p>
 
             <ul className="mt-8">
