@@ -39,18 +39,18 @@ export default function Home() {
 
             <ul className="mt-8">
               <li>
-                <a href="#" target="_blank">
-                  ↪ LinkedIn
+                <a href="https://www.linkedin.com/company/hybridity-ai" target="_blank">
+                  LinkedIn
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank">
-                  ↪ Twitter
+                <a href="https://twitter.com/hybridity_ai" target="_blank">
+                  Twitter
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank">
-                  ↪ GitHub
+                <a href="https://github.com/hybridity-ai" target="_blank">
+                  GitHub
                 </a>
               </li>
             </ul>

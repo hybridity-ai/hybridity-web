@@ -17,6 +17,21 @@ export const metadata = {
   title: 'Hybridity | Scaling AI Implementation',
   description:
     'We strive to make AI integration accessible and efficient for all businesses, regardless of size or industry.',
+  icons: {
+    icon: '/icon.png',
+  },
+  openGraph: {
+    siteName: 'Hybridity',
+    images: [
+      {
+        url: 'https://hybridity.ai/og.png',
+        width: 1200,
+        height: 675,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
