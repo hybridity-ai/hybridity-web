@@ -29,7 +29,7 @@ export default async function Page() {
           >
             <div className="text-sm font-semibold text-gray-500">{post.department}</div>
             <div className="text-2xl font-semibold font-darker">{post.title}</div>
-            <div className="mt-2 flex gap-4 text-xs text-gray-800">
+            <div className="mt-2 flex gap-4 text-xs text-gray-500">
               <div className="flex gap-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ export default async function Page() {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                   />
                 </svg>
               </div>

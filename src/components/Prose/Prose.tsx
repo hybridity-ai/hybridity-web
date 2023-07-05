@@ -18,6 +18,7 @@ const Prose = React.memo(function Prose(props: ProseProps) {
         'prose-h1:text-5xl prose-h1:md:text-8xl',
         'prose-h2:text-4xl prose-h2:md:text-6xl prose-h2:mb-4',
         'prose-h3:text-3xl prose-h3:md:text-4xl prose-h3:mb-4',
+        'prose-h4:text-2xl prose-h4:md:text-3xl prose-h4:mb-2',
         'prose-lead:font-semibold prose-lead:text-sm prose-lead:text-gray-500 prose-lead:mb-0',
         inverted ? 'prose-invert' : '',
         className,
