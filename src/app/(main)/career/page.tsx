@@ -2,6 +2,10 @@ import { client } from '@/sanity/lib'
 import { careers } from '@/sanity/queries'
 import { Prose } from '@/components'
 
+export const metadata = {
+  title: 'Careers | Hybridity | Scaling AI Implementation',
+}
+
 export default async function Page() {
   const posts = await client.fetch(careers)
 

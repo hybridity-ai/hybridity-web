@@ -3,6 +3,15 @@ import { PortableText } from '@portabletext/react'
 import { careerBySlug } from '@/sanity/queries'
 import { Prose } from '@/components'
 
+export const generateMetadata = async ({ params }: { params: { slug: string } }) => {
+  const { slug } = params
+  const post = await client.fetch(careerBySlug, { slug })
+
+  return {
+    title: `${post.title} | Careers | Hybridity`,
+  }
+}
+
 export default async function Page({ params }: { params: { slug: string } }) {
   const { slug } = params
   const post = await client.fetch(careerBySlug, { slug })
