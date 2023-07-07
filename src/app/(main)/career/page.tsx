@@ -94,28 +94,41 @@ export default async function Page() {
           </a>
         ))}
       </div>
-      <Prose className="mt-16">
-        <p className="lead">Find out more</p>
-        <h3>Working at Hybridity</h3>
-        <p>
-          At Hybridity, we value collaboration, innovation, and continuous learning. Our culture
-          fosters an environment where ideas are shared openly, and everyone&#39;s contribution is
-          valued. We believe in maintaining a healthy work-life balance and offer flexible working
-          arrangements. Professional growth is important to us; hence, we provide opportunities for
-          learning and development. Whether it is working on cutting-edge AI solutions or
-          collaborating with our diverse team, there is always something exciting happening at
-          Hybridity.
-        </p>
-        <h3>Diversity and Inclusion</h3>
-        <p>
-          Hybridity is committed to cultivating a diverse and inclusive work environment. We believe
-          our strength lies in the diversity of our team&#39;s experiences, perspectives, and
-          backgrounds. We are dedicated to creating an environment where everyone feels valued,
-          included, and empowered to do their best work. We continue to build and nurture a culture
-          where inclusiveness is a reflex, not an initiative. To us, diversity and inclusion are not
-          just buzzwords, but a commitment underscored by actions.
-        </p>
-      </Prose>
+      <div className="flex flex-col md:flex-row mt-10 md:mt-20 gap-10 md:gap-20 items-center">
+        <Prose>
+          <p className="lead">What we offer</p>
+          <h3>Working at Hybridity</h3>
+          <p>
+            At Hybridity, we value collaboration, innovation, and continuous learning. Our culture
+            fosters an environment where ideas are shared openly, and everyone&#39;s contribution is
+            valued. We believe in maintaining a healthy work-life balance and offer flexible working
+            arrangements. Professional growth is important to us; hence, we provide opportunities
+            for learning and development. Whether it is working on cutting-edge AI solutions or
+            collaborating with our diverse team, there is always something exciting happening at
+            Hybridity.
+          </p>
+        </Prose>
+        <div>
+          <img className="rounded-3xl shadow-2xl" src="/images/stockholm.jpg" alt="" />
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row-reverse mt-10 md:my-40 gap-10 md:gap-20 items-center">
+        <Prose>
+          <p className="lead">Share our values</p>
+          <h3>Diversity and Inclusion</h3>
+          <p>
+            Hybridity is committed to cultivating a diverse and inclusive work environment. We
+            believe our strength lies in the diversity of our team&#39;s experiences, perspectives,
+            and backgrounds. We are dedicated to creating an environment where everyone feels
+            valued, included, and empowered to do their best work. We continue to build and nurture
+            a culture where inclusiveness is a reflex, not an initiative. To us, diversity and
+            inclusion are not just buzzwords, but a commitment underscored by actions.
+          </p>
+        </Prose>
+        <div>
+          <img className="rounded-3xl shadow-2xl" src="/images/work.jpg" alt="" />
+        </div>
+      </div>
     </>
   )
 }
